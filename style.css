@@ -14,8 +14,8 @@ body {
 .header {
   /*background: #2fbd35;*/
   margin: 0;
-  position: absolute;
-  top 0%;
+  position: relative;
+
   height: 15rem;
   width: 100%;
 }
@@ -34,4 +34,31 @@ body {
   position: absolute;
   left: 15%;
   bottom: 15%;
+}
+
+.main {
+  background: green;
+  color: green;
+  width: 75%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 -1rem;
+  overflow: auto;
+}
+
+.sidebox {
+  background: blue;
+  color: blue;
+  width: calc(20% - 1rem);
+  float: left;
+  margin: .5rem;
+}
+
+.main-article {
+  background: yellow;
+  color: yellow;
+  width: calc(60% - 1rem);
+  float: left;
+  margin: .5rem;
 }
