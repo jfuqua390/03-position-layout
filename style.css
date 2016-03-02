@@ -37,8 +37,8 @@ body {
 }
 
 .main {
-  background: green;
-  color: green;
+  /*background: green;*/
+  /*color: green;*/
   width: 75%;
   position: fixed;
   left: 50%;
@@ -48,7 +48,7 @@ body {
 }
 
 .sidebox {
-  background: blue;
+  /*background: blue;*/
   color: black;
   width: calc(20% - 1rem);
   float: left;
@@ -61,4 +61,15 @@ body {
   width: calc(60% - 1rem);
   float: left;
   margin: .5rem;
+}
+
+.sidebox_brand_desc {
+  color: gray;
+  font-weight: lighter;
+  border-bottom: .1rem solid lightgray;
+}
+
+.sidebox_search {
+  color: gray;
+  font-weight: lighter;
 }
