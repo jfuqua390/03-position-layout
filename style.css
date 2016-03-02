@@ -8,4 +8,30 @@ html {
 body {
   margin: 0;
   font-size: medium;
+  font-family: sans-serif;
+}
+
+.header {
+  /*background: #2fbd35;*/
+  margin: 0;
+  position: absolute;
+  top 0%;
+  height: 15rem;
+  width: 100%;
+}
+
+.banner_img {
+  height: 10rem;
+  width: 100%;
+  background-image: url("http://placecage.com/400/400");
+}
+
+.banner_logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .3rem solid white;
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
 }
