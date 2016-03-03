@@ -8,4 +8,79 @@ html {
 body {
   margin: 0;
   font-size: medium;
+  font-family: sans-serif;
+}
+
+.header {
+  /*background: #2fbd35;*/
+  margin: 0;
+  position: relative;
+
+  height: 15rem;
+  width: 100%;
+}
+
+.banner_img {
+  height: 10rem;
+  width: 100%;
+  background-image: url("http://placecage.com/400/400");
+}
+
+.banner_logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: .3rem solid white;
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
+}
+
+.main {
+
+  width: 75%;
+  position: fixed;
+  left: 53%;
+  transform: translateX(-50%);
+  margin: 0 -1rem;
+  overflow: auto;
+}
+
+.sidebox {
+
+  width: calc(20% - 1rem);
+  float: left;
+  margin: 0 1rem;
+}
+
+.main-article {
+  width: calc(60% - 1rem);
+  float: left;
+  margin: 0 1rem;
+}
+
+.sidebox_brand_desc {
+  color: gray;
+  font-weight: lighter;
+  border-bottom: .1rem solid lightgray;
+}
+
+.sidebox_search {
+  color: gray;
+  font-weight: lighter;
+}
+
+.main_byline {
+  font-style: italic;
+}
+
+.main_img {
+  position: relative;
+  top
+}
+
+.alert {
+  background: green;
+  color: green;
+  width: 15rem;
 }
