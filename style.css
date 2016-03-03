@@ -37,8 +37,7 @@ body {
 }
 
 .main {
-  /*background: green;*/
-  /*color: green;*/
+
   width: 75%;
   position: fixed;
   left: 53%;
@@ -48,8 +47,7 @@ body {
 }
 
 .sidebox {
-  /*background: blue;*/
-  color: black;
+
   width: calc(20% - 1rem);
   float: left;
   margin: 0 1rem;
@@ -79,4 +77,10 @@ body {
 .main_img {
   position: relative;
   top
+}
+
+.alert {
+  background: green;
+  color: green;
+  width: 15rem;
 }
