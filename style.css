@@ -41,7 +41,7 @@ body {
   /*color: green;*/
   width: 75%;
   position: fixed;
-  left: 50%;
+  left: 53%;
   transform: translateX(-50%);
   margin: 0 -1rem;
   overflow: auto;
@@ -52,15 +52,13 @@ body {
   color: black;
   width: calc(20% - 1rem);
   float: left;
-  margin: .5rem;
+  margin: 0 1rem;
 }
 
 .main-article {
-  background: yellow;
-  color: yellow;
   width: calc(60% - 1rem);
   float: left;
-  margin: .5rem;
+  margin: 0 1rem;
 }
 
 .sidebox_brand_desc {
@@ -72,4 +70,13 @@ body {
 .sidebox_search {
   color: gray;
   font-weight: lighter;
+}
+
+.main_byline {
+  font-style: italic;
+}
+
+.main_img {
+  position: relative;
+  top
 }
